@@ -15,7 +15,7 @@ class SipgateWebApi
   @@base_url = "https://secure.live.sipgate.de"
   @@cookiepath = "cookies/"
 
-  def initialize(username, password)
+  def initialize(username, password=nil)
     @username = username
     @password = password
     @logged_in = false
