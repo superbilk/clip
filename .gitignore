@@ -1,0 +1,7 @@
+cookies/*
+# except .gitkeep
+!cookies/.gitkeep
+
+tmp/*
+# except .gitkeep
+!tmp/.gitkeep
